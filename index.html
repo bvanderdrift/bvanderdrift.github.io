@@ -85,7 +85,18 @@
 </head>
 <body style="background-height:100%;">
 
-<script>setTimeout(function(){ window.location = "http://virgiel.nl"; }, 3000);</script>
+<script>
+var to = setTimeout(function(){ 
+	window.location = "http://virgiel.nl"; 
+}, 3000);
+
+document.onkeypress = function(e){
+	if(e.keyCode == 32){
+		clearTimeout(to);
+	}
+}
+
+</script>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
