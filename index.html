@@ -168,9 +168,18 @@ Bravo
 <body style="background-height:100%;">
 
 <script>
+
+var ofortuna = new Audio('audio/ofortuna.mp3');
+ofortuna.play();
+
+//Fuck yes hardcoding
+var duration = 28.525714;
+
 var to = setTimeout(function(){ 
 	window.location = "http://bit.ly/tokomooi"; 
-}, 5000);
+}, duration * 1000);
+
+console.log(ofortuna.duration * 1000);
 
 document.onkeypress = function(e){
 	if(e.keyCode == 32){
