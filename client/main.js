@@ -1,5 +1,7 @@
 redirect = function(){ 
-  window.location = "http://bit.ly/tokomooi"; 
+	analytics.track("Redirected to toko", function(){
+		window.location = "http://bit.ly/tokomooi";
+	}); 
 };
 
 //Music won't play on mobile phones, so normal redirect.
