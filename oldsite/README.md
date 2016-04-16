@@ -1,1 +1,0 @@
-# bvanderdrift.github.io
