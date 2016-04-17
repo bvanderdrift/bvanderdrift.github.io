@@ -1,0 +1,65 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "937ffcdb51aa63937cbf3895317ffbc1b16bded8.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/937ffcdb51aa63937cbf3895317ffbc1b16bded8.js?meteor_js_resource=true",
+      "size": 558707,
+      "hash": "937ffcdb51aa63937cbf3895317ffbc1b16bded8"
+    },
+    {
+      "path": "app/css/normalize.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/css/normalize.css",
+      "size": 8013,
+      "hash": "e412d9ca2160117f9ff7efd9c2072d3dba2dcd6a"
+    },
+    {
+      "path": "app/css/skeleton.css",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/css/skeleton.css",
+      "size": 11452,
+      "hash": "d8cf84cfe2520a76fc69cd4a52d92f8a94c8f46b"
+    },
+    {
+      "path": "app/media/favicon.ico",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/media/favicon.ico",
+      "size": 3177,
+      "hash": "f66b4f02165fd42d7f7c83ff08c27eb6e5296034"
+    },
+    {
+      "path": "app/media/logo.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/media/logo.png",
+      "size": 241065,
+      "hash": "deaea55e0b9ab34d7182d1f87eab7ecd65325206"
+    },
+    {
+      "path": "app/media/ofortuna.mp3",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/media/ofortuna.mp3",
+      "size": 1142072,
+      "hash": "4803781657750d0094201b9df5e97e7dff200542"
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "390b4817a679ca4429fc1af0c73e45fe7720173f"
+    }
+  ]
+}
